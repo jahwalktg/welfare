@@ -10,14 +10,14 @@ window.JAHWAL_TOOLS = [
   {
     id: 'tools', title: '사회복지사 업무 도구', short: '업무 도구', sub: '실무자 도구 모음', who: '실무자',
     desc: '문서·명단·홍보·사무·안전·시간 도구를 한 화면에서 골라 써요. 설치도 로그인도 없어요.',
-    feats: ['인수인계서·업무분장표', '명단 대조', '개인정보 가리기', '수료증·이름표', '주소 라벨', 'PDF 나누기', '소식지·보도자료'],
+    feats: ['인수인계서·업무분장표', '평가 서류철·폴더', '전화 응대판', '명단 대조', '개인정보 가리기', '수료증·이름표', '주소 라벨', 'PDF 나누기'],
     links: [{ label: '열어 보기', url: 'https://jahwalktg.github.io/welfare-tools/' }],
     tags: ['work'], color: '#1A6EFF', pic: 'tools', spot: 'desk', navLabel: '업무'
   },
   {
     id: 'ai', title: 'AI 주문서 — 우리 기관 스타일로', short: 'AI 주문서', sub: '챗GPT·제미나이에 붙이는 글', who: '문서를 쓰는 실무자',
     desc: '우리 기관 틀과 말투를 담은 스타일 카드를 만들어 두면, 받은 양식 채우기·작년 문서 고치기·메모를 문서로 바꾸는 주문서가 우리 기관 방식으로 나와요.',
-    feats: ['우리 기관 스타일 카드', '문서 만들기·바꾸기', '쉬운 안내문', '회의록·공문', '개인정보 가리기', 'hwpx 글 꺼내기'],
+    feats: ['우리 기관 스타일 카드', '문서 만들기·바꾸기', '쉬운 안내문', '공문·기안 점검', '회의록·공문', '개인정보 가리기', 'hwpx 글 꺼내기'],
     note: 'AI를 대신 불러 주지 않아요. 붙여 넣을 글(주문서)을 만들어 주고, 넣은 글은 어디에도 보내지 않아요.',
     links: [{ label: '스타일 카드 만들기', url: 'https://jahwalktg.github.io/welfare-tools/style-card/' }, { label: '문서 바꾸기', url: 'https://jahwalktg.github.io/welfare-tools/doc-remake/' }],
     tags: ['work', 'doc'], color: '#D2366B', pic: 'guide', spot: 'kiosk', navLabel: 'AI 주문서'
