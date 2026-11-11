@@ -10,7 +10,7 @@ window.JAHWAL_TOOLS = [
   {
     id: 'tools', title: '사회복지사 업무 도구', short: '업무 도구', sub: '실무자 도구 모음', who: '실무자',
     desc: '문서·명단·홍보·사무·안전·시간 도구를 한 화면에서 골라 써요. 설치도 로그인도 없어요.',
-    feats: ['명단 대조', '개인정보 가리기', '수료증·이름표', '주소 라벨', 'PDF 나누기', '소식지·보도자료', '안전 표지'],
+    feats: ['인수인계서·업무분장표', '명단 대조', '개인정보 가리기', '수료증·이름표', '주소 라벨', 'PDF 나누기', '소식지·보도자료'],
     links: [{ label: '열어 보기', url: 'https://jahwalktg.github.io/welfare-tools/' }],
     tags: ['work'], color: '#1A6EFF', pic: 'tools', spot: 'desk', navLabel: '업무'
   },
@@ -40,8 +40,9 @@ window.JAHWAL_TOOLS = [
   },
   {
     id: 'guide', title: '신입 안내서', short: '신입 안내서', sub: '첫 달에 듣게 될 말', who: '신입 실무자',
-    desc: '재무회계·보조금·후원금·노무·시설 운영의 낱말을 쉬운 말로 풀고, 돈과 사람의 흐름, 한 해 달력, 처음 한 달 체크리스트를 모았어요.',
-    feats: ['쉬운 말 사전', '돈과 사람의 흐름', '한 해 달력', '처음 한 달 체크'],
+    desc: '첫 달에 듣게 될 낱말을 쉬운 말과 근거 쪽수로 풀고, 지출·예산·결산·보조금·후원금·채용 같은 업무 절차를 순서대로 보여 줘요.',
+    feats: ['낱말 114개', '업무 절차 11개', '한 해 달력', '처음 한 달 체크'],
+    note: '세무·4대보험처럼 현장 검토 전인 것은 「검토 중」으로 표시했어요.',
     links: [{ label: '열어 보기', url: 'https://jahwalktg.github.io/welfare-tools/guide/' }],
     tags: ['new'], color: '#7B4BD6', pic: 'start', spot: 'board', navLabel: '신입'
   }
