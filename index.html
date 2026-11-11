@@ -279,7 +279,7 @@ h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--amber-b
   var toastT;
   function toast(m){var t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(toastT);toastT=setTimeout(function(){t.classList.remove('on');},1600);}
   function copy(text,msg){
-    function fallback(){var a=document.createElement('textarea');a.value=text;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy');}catch(e){}a.remove();toast(msg);}
+    function fallback(){var a=document.createElement('textarea');a.value=text;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();var ok=false;try{ok=document.execCommand('copy');}catch(e){}a.remove();toast(ok?msg:'복사하지 못했어요. 글을 직접 골라 복사해 주세요');}
     if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(text).then(function(){toast(msg);},fallback);else fallback();
   }
 
