@@ -53,5 +53,13 @@ window.JAHWAL_TOOLS = [
     note: '복지로 공식 서비스가 아니에요. 공개 자료를 미리 받아 둔 참고용이라 판정하지 않고, 원문과 담당 기관에서 꼭 확인해요.',
     links: [{ label: '열어 보기', url: 'https://jahwalktg.github.io/bokjiro-search/' }],
     tags: ['rule'], color: '#0B7285', pic: 'search', spot: 'counter', navLabel: '복지제도'
+  },
+  {
+    id: 'office', title: '뚝딱 한엑피 공방', short: '한엑피', sub: '한글·엑셀·PPT 반복 일을 뚝딱', who: '보고서·행사 사진·발표 자료',
+    desc: '엑셀 표를 한글 표로, 사업단·부서별 엑셀 합치기·나누기, 꾸민 표를 깨끗하게 바꾸는 표 청소기, 피벗 없이 집계표, 엑셀 숫자를 고칠 수 있는 PPT 차트로, 사진 폴더를 PPT 앨범으로, 무거운 PPT·한글 파일 줄이기. 도구마다 예시로 먼저 해 볼 수 있어요.',
+    feats: ['엑셀 표 → 한글 표', '엑셀 합치기·나누기', '표 청소기', '피벗 없이 집계표', 'PPT 차트', '사진 앨범 PPT', '용량 줄이기'],
+    note: '설치·로그인 없이 브라우저에서 바로. 넣은 파일은 어디에도 보내지 않아요.',
+    links: [{ label: '열어 보기', url: 'https://jahwalktg.github.io/jahwal-office/' }],
+    tags: ['work', 'doc'], color: '#1D7A46', pic: 'tools', spot: 'kiosk', navLabel: '한엑피'
   }
 ];
